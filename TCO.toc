@@ -1,0 +1,8 @@
+## Interface: 110000
+## Title: TCO - Transferable Currency Overview
+## Author: Riasta-Draenor EU
+## DefaultState: enabled
+## Version: 1.0
+## Notes: Overview for all Warband transferable currency
+
+core.lua
