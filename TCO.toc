@@ -2,6 +2,7 @@
 ## Title: TCO - Transferable Currency Overview
 ## Author: Riasta-Draenor EU
 ## DefaultState: enabled
+## RequiredDeps: Blizzard_TokenUI
 ## Version: 1.0
 ## Notes: Overview for all Warband transferable currency
 

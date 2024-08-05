@@ -177,10 +177,8 @@ TokenFrame:HookScript("OnShow", function ()
         local characterlist = ""
         local accountCurrencyData = C_CurrencyInfo.FetchCurrencyDataFromAccountCharacters(id)
         local ownCharacter = C_CurrencyInfo.GetCurrencyInfo(id)
-        print(ownCharacter.name.." : "..ownCharacter.quantity)
         if accountCurrencyData then
             for x, y in pairs(accountCurrencyData) do
-                -- print(y["characterName"].." quantity: "..y["quantity"])
                 local characterName = y["characterName"]
                 local quantity = y["quantity"]
                 totalCurrency = totalCurrency + y["quantity"]
@@ -214,3 +212,12 @@ TokenFrame:HookScript("OnHide", function ()
     CurrencySummaryFrame:Hide()
 end)
 
+local function OnEvent()
+    local tryLoading = C_CurrencyInfo.RequestCurrencyDataForAccountCharacters()
+    CurrencySummaryFrame:UnregisterEvent("PLAYER_LOGIN")
+end
+
+CurrencySummaryFrame:RegisterEvent("PLAYER_LOGIN")
+CurrencySummaryFrame:SetScript("OnEvent", OnEvent)
+
+-- ACCOUNT_CHARACTER_CURRENCY_DATA_RECEIVED
