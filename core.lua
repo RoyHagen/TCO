@@ -144,6 +144,19 @@ function CurrencySummaryFrame:AdjustHeight()
         end
     end
     self:SetHeight(totalHeight)
+
+    -- -- test for width
+    -- local totalWidth = 70
+    -- local currentMaxWidth = 0
+    -- for i, child in ipairs({self:GetChildren()}) do
+    --     if child:IsShown() then
+    --         if currentMaxWidth < child:GetWidth() then
+    --             currentMaxWidth = child:GetWidth()
+    --         end
+    --     end
+    --     -- print(currentMaxWidth)
+    -- end
+    -- self:SetWidth(totalWidth + currentMaxWidth)
 end
 
 
@@ -185,6 +198,13 @@ TokenFrame:HookScript("OnShow", function ()
                 characterlist = characterlist..""..characterName..": "..quantity.."\n"
             end
             -- print(totalCurrency)
+            -- if the current character doesn't have the currency, it cannot be transfered. Blizzard bug or intended?
+            -- local line
+            -- if ownCharacter.quantity == 0 then
+            --     line = CreateNewLine(CurrencySummaryFrame, name..": "..totalCurrency.." | "..ownCharacter.quantity.." - Cannot transfer", characterlist)
+            -- else
+            --     line = CreateNewLine(CurrencySummaryFrame, name..": "..totalCurrency.." | "..ownCharacter.quantity, characterlist)
+            -- end
             local line = CreateNewLine(CurrencySummaryFrame, name..": "..totalCurrency.." | "..ownCharacter.quantity, characterlist)
             if firstline then
                 line:SetPoint("TOPLEFT", CurrencySummaryFrame, "TOPLEFT", 10, -15)
