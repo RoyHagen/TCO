@@ -120,7 +120,7 @@ local function CreateNewLine(parentFrame, titleText, contentText)
         else
             content:Show()
             lineFrame:SetHeight(25 + content:GetStringHeight() + 5)
-            -- because the chosen arrow is not centered, we need to reposition it as well as change the rotation
+            -- because the chosen arrow is not centered, we need to reposition it as well as change the rotation, maybe
             arrow:SetPoint("TOPLEFT", 0, -(lineStartHeight+0))
             arrow:SetRotation(0)
         end

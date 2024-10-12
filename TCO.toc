@@ -3,7 +3,7 @@
 ## Author: Riasta-Draenor EU
 ## DefaultState: enabled
 ## RequiredDeps: Blizzard_TokenUI
-## Version: 1.1
+## Version: 1.1.1
 ## Notes: Overview for all Warband transferable currency
 
 core.lua
