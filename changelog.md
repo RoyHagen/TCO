@@ -1,5 +1,8 @@
 ## Changelog
 
+-- 1.1.5 --
+* removed old interface version
+
 -- 1.1.4 --
 * bump to path 11.1.0 test
 
