@@ -1,5 +1,6 @@
 -- Currencies that are warbound --
 local currencyIDs = {
+    [3319] = {id=3319, name="Twilight's Blade Insignia"}, -- Midnight prepatch currency. Remove after prepatch?
     [3093] = {id=3093, name="Nerub-ar Finery"}, -- WW
     [3089] = {id=3089, name="Residual Memories"}, -- WW PP
     [3056] = {id=3056, name="Kej"}, -- WW

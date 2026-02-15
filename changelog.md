@@ -1,5 +1,10 @@
 ## Changelog
 
+-- 2.0.0 --
+* Updated for Midnight Prepatch
+* For prepatch - added Twilight's Blade Insignia currency
+* Categorized addon as a "User Interface" addon
+
 -- 1.1.5 --
 * removed old interface version
 
