@@ -1,5 +1,8 @@
 ## Changelog
 
+-- 2.0.1 --
+* Added addonlist icon
+
 -- 2.0.0 --
 * Updated for Midnight Prepatch
 * For prepatch - added Twilight's Blade Insignia currency
