@@ -1,5 +1,10 @@
 ## Changelog
 
+-- 2.1.0 --
+* Disabled Midnight prepatch currency
+* Added Voidlight Marl
+* Moved Undercoins further up due to relevance
+
 -- 2.0.1 --
 * Added addonlist icon
 

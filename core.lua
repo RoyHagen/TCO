@@ -1,12 +1,13 @@
 -- Currencies that are warbound --
 local currencyIDs = {
-    [3319] = {id=3319, name="Twilight's Blade Insignia"}, -- Midnight prepatch currency. Remove after prepatch?
+    [3316] = {id=3316, name="Voidlight Marl"},
+    [2803] = {id=2803, name="Undercoin"},
+    -- [3319] = {id=3319, name="Twilight's Blade Insignia"}, -- Midnight prepatch currency. Remove after prepatch?
     [3093] = {id=3093, name="Nerub-ar Finery"}, -- WW
     [3089] = {id=3089, name="Residual Memories"}, -- WW PP
     [3056] = {id=3056, name="Kej"}, -- WW
     [3055] = {id=3055, name="Mereldar Derby Mark"}, -- WW
     [2815] = {id=2815, name="Resonance Crystals"},
-    [2803] = {id=2803, name="Undercoin"},
     [2657] = {id=2657, name="Mysterious Fragment"},
     [2594] = {id=2594, name="Paracausal Flakes"},
     [2588] = {id=2588, name="Riders of Azeroth Badge"},
