@@ -5,7 +5,7 @@
 ## Author: Riasta-Draenor EU
 ## DefaultState: enabled
 ## RequiredDeps: Blizzard_TokenUI
-## Version: 2.1.0
+## Version: 2.2.0
 ## Category: User Interface
 ## Notes: Overview for all Warband transferable currency
 

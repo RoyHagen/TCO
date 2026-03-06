@@ -1,5 +1,9 @@
 ## Changelog
 
+-- 2.2.0 --
+* Reworked the addon a bit to limit garbage buildup
+* Added Luminous Dust, Brimming Arcana
+
 -- 2.1.0 --
 * Disabled Midnight prepatch currency
 * Added Voidlight Marl
