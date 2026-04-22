@@ -1,5 +1,8 @@
 ## Changelog
 
+-- 2.2.1 --
+* 12.0.5
+
 -- 2.2.0 --
 * Reworked the addon a bit to limit garbage buildup
 * Added Luminous Dust, Brimming Arcana
